@@ -131,7 +131,7 @@ function initContactForm() {
             showNotification('Sending message...', 'info');
             
             // Create mailto link
-            const mailtoLink = `mailto:shashankgurram03@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+            const mailtoLink = `mailto:illapuramhanumanth@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
             
             // Open email client
             setTimeout(() => {
